@@ -152,6 +152,11 @@ a:focus {
 .fallback-message p {
     margin-bottom: 10px;
 }
+/* enable clicking on elements 'hiding' behind body in 3D */
+body     { pointer-events: none; }
+
+a,iframe,
+#impress { pointer-events: auto; }
 
 .impress-supported .fallback-message {
     display: none;

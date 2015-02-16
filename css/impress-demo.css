@@ -57,9 +57,7 @@ footer, header, hgroup, menu, nav, section {
 body {
     line-height: 1;
 }
-ol, ul {
-    list-style: none;
-}
+
 blockquote, q {
     quotes: none;
 }
@@ -230,6 +228,10 @@ a,iframe,
     font-size: 30px;
     line-height: 36px;
     letter-spacing: -1px;
+
+    ol, ul {
+        list-style: none;
+    }
 }
 
 .slide q {
@@ -273,11 +275,20 @@ a,iframe,
 }
 .slide .cInlineBlock {
     display: block;
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
 }
 .slide .cInline {
     display: inline-block;
     margin-left: 30px;
 }
+.slide .pbkg {
+    background-color: pink;
+    border-radius: 5px;
+    padding: 10px;
+}
+
 
 /*
     And now we start to style each step separately.

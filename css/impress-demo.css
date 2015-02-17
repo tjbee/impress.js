@@ -239,7 +239,7 @@ a,iframe,
     font-size: 50px;
     line-height: 72px;
 
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .slide q strong {
@@ -287,6 +287,12 @@ a,iframe,
     background-color: pink;
     border-radius: 5px;
     padding: 10px;
+}
+.slide .pbkg1 {
+    background-color: #A9F5F2;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center;
 }
 .slide .tcenter {
     text-align: center;

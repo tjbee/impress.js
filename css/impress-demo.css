@@ -247,7 +247,7 @@ a,iframe,
 }
 
 .slide h2 {
-    font-size: 18px;
+    font-size: 28px;
 }
 .slide h3 {
     font-size: 16px;
@@ -287,6 +287,18 @@ a,iframe,
     background-color: pink;
     border-radius: 5px;
     padding: 10px;
+}
+.slide .tcenter {
+    text-align: center;
+    font-size: 60px;
+    margin: 20px;
+    color: brown;
+}
+.slide .tcentersub {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 100px;
+    color: pink;
 }
 
 
